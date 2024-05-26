@@ -2,11 +2,11 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import discordImg from "@/public/img/1.png";
-import lmsPlatform from "@/public/img/2.jpg";
-import dashboardCMS from "@/public/img/3.jpg";
-import ecommerceStore from "@/public/img/4.jpg";
-import airbnbClone from "@/public/img/5.jpg";
+import discordImg from "@/public/img/team-chat.jpg";
+import lmsPlatform from "@/public/img/lms-platform.jpg";
+import dashboardCMS from "@/public/img/dashboard-cms.png";
+import ecommerceStore from "@/public/img/ecommerce-store.png";
+import socialMedia from "@/public/img/social-media.jpg";
 
 export const links = [
   {
@@ -64,7 +64,7 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "Discord Clone",
+    title: "Text Chat & Video Chat",
     tags: [
       "Next.js",
       "React",
@@ -76,7 +76,7 @@ export const projectsData = [
     ],
     imageUrl: discordImg,
     codeUrl: "https://github.com/DeveloperYamin/Discord-Clone",
-    liveUrl: "https://discord-clone-production-4e3e.up.railway.app/",
+    liveUrl: "https://discord-clone-6vpw.onrender.com",
     description: "",
   },
   {
@@ -84,7 +84,7 @@ export const projectsData = [
     tags: ["Next.js", "React", "Stripe", "Mux", "Prisma", "Tailwind", "MySQL"],
     imageUrl: lmsPlatform,
     codeUrl: "https://github.com/DeveloperYamin/LMS-Platform",
-    liveUrl: "https://lms-platform-liard.vercel.app/",
+    liveUrl: "https://lms-platform-bice.vercel.app",
     description: "",
   },
   {
@@ -92,7 +92,7 @@ export const projectsData = [
     tags: ["Next.js", "React", "Stripe", "Prisma", "Tailwind", "MySQL"],
     imageUrl: dashboardCMS,
     codeUrl: "https://github.com/DeveloperYamin/Full-Stack-Dashboard-CMS",
-    liveUrl: "https://full-stack-dashboard-cms.vercel.app/",
+    liveUrl: "https://full-stack-dashboard-cms.vercel.app",
     description: "",
   },
   {
@@ -100,17 +100,17 @@ export const projectsData = [
     tags: ["Next.js", "React", "Stripe", "Prisma", "Tailwind", "MySQL"],
     imageUrl: ecommerceStore,
     codeUrl: "https://github.com/DeveloperYamin/Ecommerce-Store",
-    liveUrl: "https://ecommerce-store-sooty-eight.vercel.app/",
+    liveUrl: "https://ecommerce-store-six-beige.vercel.app",
     description: "",
   },
   {
-    title: "Airbnb Clone",
-    tags: ["React", "Next.js", "Tailwind", "Prisma", "MongoDB", "NextAuth"],
-    imageUrl: airbnbClone,
-    codeUrl: "https://github.com/DeveloperYamin/yamin-next-airbnb-clone-2023",
-    liveUrl: "https://yamin-next-airbnb-clone-web-2023.vercel.app/",
+    title: "Social Media",
+    tags: ["NextJS", "React", "NextAuth", "Firebase", "Tailwind"],
+    imageUrl: socialMedia,
+    codeUrl: "https://github.com/DeveloperYamin/Twitter-Clone-With-NextJS",
+    liveUrl: "https://twitter-clone-with-next-js-hubi-yamin.vercel.app",
     description: "",
-  },
+  }
 ] as const;
 
 export const skillsData = [
